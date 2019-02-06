@@ -7,5 +7,9 @@ before_script:
     - echo "Antes de ejecutar un script"    
 script:
     - echo "Hola mundo"
+    - pwd
+    - ls -la
+    - date
+    - cd daesa
 notifications:
 email: false
